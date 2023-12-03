@@ -6,7 +6,6 @@ import {
 	BlogPostsList,
 } from '@littlesticks/odyssey-theme-components';
 import Layout from '../../layouts/Page.astro';
-import NewsletterForm from '../../components/forms/NewsletterForm.astro';
 
 const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 	posts
@@ -40,7 +39,6 @@ const seo = {
 				View our blog to stay up to date on the latest news about our business.
 				Want to be the first to hear about a new blog post? Join our newsletter!
 			</p>
-			<NewsletterForm />
 		</TextCardSection>
 		<section class="blog-posts-list__section">
 			<h2>Recent Posts</h2>
