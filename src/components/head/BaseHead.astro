@@ -14,12 +14,12 @@ export interface Props {
 const title = Astro.props.title || settings.title;
 const description = Astro.props.description || settings.description;
 const canonicalURL = Astro.props.canonicalURL || new URL(Astro.url.pathname, Astro.site);
-const image = new URL(Astro.props.image || './social.png', Astro.site);
+const image = new URL(Astro.props.image || '/assets/1696075946991.jpg', Astro.site);
 ---
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="icon" type="image/png" href="/assets/1696075946991.jpg" />
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
@@ -41,6 +41,13 @@ const image = new URL(Astro.props.image || './social.png', Astro.site);
 	ChannelIO('boot', {
 		"pluginKey": "01dea795-07b8-4fa1-8fb8-cf23d24f1d87"
 	});
+</script>
+<script type="text/javascript">
+	(function(c,l,a,r,i,t,y){
+		c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+		t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+		y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+	})(window, document, "clarity", "script", "jwbv6nnhr6");
 </script>
 
 {settings.enableThemeSwitcher && <ThemeProvider />}
