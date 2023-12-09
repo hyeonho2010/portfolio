@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2566cd28-24bb-4cd4-85a4-e64b241b9f26" name="Changes" comment="Version 1.3.4">
-      <change afterPath="$PROJECT_DIR$/public/assets/1696075946991.jpg" afterDir="false" />
+    <list default="true" id="2566cd28-24bb-4cd4-85a4-e64b241b9f26" name="Changes" comment="Version 1.3.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/head/BaseHead.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/head/BaseHead.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theme-switcher/theme-switcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theme-switcher/theme-switcher.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/projects/portfolio/public/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +71,7 @@
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "C:\\Users\\Samsung\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,7 +115,9 @@
       <workItem from="1701604239462" duration="161000" />
       <workItem from="1701606373572" duration="11000" />
       <workItem from="1701868808121" duration="322000" />
-      <workItem from="1701937176971" duration="805000" />
+      <workItem from="1701937176971" duration="927000" />
+      <workItem from="1702016373365" duration="702000" />
+      <workItem from="1702118512676" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.3.1">
       <option name="closed" value="true" />
@@ -146,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701869112090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 1.3.5">
+      <option name="closed" value="true" />
+      <created>1701938090956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701938090957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +181,7 @@
     <MESSAGE value="Version 1.3.2" />
     <MESSAGE value="Version 1.3.3" />
     <MESSAGE value="Version 1.3.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.4" />
+    <MESSAGE value="Version 1.3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.5" />
   </component>
 </project>
